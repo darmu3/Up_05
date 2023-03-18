@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>icons/hexagon_FILL0_wght400_GRAD0_opsz48.svg</file>
+    <file>icons/menu_book_FILL0_wght400_GRAD0_opsz48.svg</file>
+    <file>icons/quiz_FILL0_wght400_GRAD0_opsz48.svg</file>
+    <file>icons/settings_FILL0_wght400_GRAD0_opsz48.svg</file>
+    <file>icons/start_FILL0_wght400_GRAD0_opsz48.svg</file>
+  </qresource>
+</RCC>

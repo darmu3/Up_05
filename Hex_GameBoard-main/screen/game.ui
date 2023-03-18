@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>754</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GEX</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(81, 0, 135, 255),stop:0.427447 rgba(41, 61, 132, 235), stop:1 rgba(155, 79, 165, 255))
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>50</y>
+      <width>461</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Attentat</family>
+      <pointsize>72</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+min-width: 25px;
+ min-height: 25px;</string>
+    </property>
+    <property name="text">
+     <string>GEX</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="control">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>250</y>
+      <width>681</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 30);
+border: 2px solid rgba(255, 255, 255, 40);
+border-radius: 7px;
+min-width: 25px;
+ min-height: 25px;</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="font">
+        <font>
+         <family>Orpheus</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+color: black;
+background-color: rgba(255,255,255, 30);
+border: 2px solid rgba(255,255,255,40);
+border-radius: 7px;
+min-width: 25px; 
+min-height: 25px;
+width:230px;
+height: 50px
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Играть</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res-rc.qrc">
+         <normaloff>:/newPrefix/icons/hexagon_FILL0_wght400_GRAD0_opsz48.svg</normaloff>:/newPrefix/icons/hexagon_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="font">
+        <font>
+         <family>Orpheus</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+color: black;
+background-color: rgba(255,255,255, 30);
+border: 2px solid rgba(255,255,255,40);
+border-radius: 7px;
+min-width: 25px; 
+min-height: 25px;
+width:230px;
+height: 50px
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Настройки</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res-rc.qrc">
+         <normaloff>:/newPrefix/icons/settings_FILL0_wght400_GRAD0_opsz48.svg</normaloff>:/newPrefix/icons/settings_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="font">
+        <font>
+         <family>Orpheus</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+color: black;
+background-color: rgba(255,255,255, 30);
+border: 2px solid rgba(255,255,255,40);
+border-radius: 7px;
+min-width: 25px; 
+min-height: 25px;
+width:230px;
+height: 50px
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Правила</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res-rc.qrc">
+         <normaloff>:/newPrefix/icons/menu_book_FILL0_wght400_GRAD0_opsz48.svg</normaloff>:/newPrefix/icons/menu_book_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res-rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>icons/cancel_FILL0_wght400_GRAD0_opsz48.svg</file>
+    <file>icons/check_circle_FILL0_wght400_GRAD0_opsz48.svg</file>
+  </qresource>
+</RCC>

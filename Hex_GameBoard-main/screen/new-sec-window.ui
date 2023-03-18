@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>754</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(81, 0, 135, 255),stop:0.427447 rgba(41, 61, 132, 235), stop:1 rgba(155, 79, 165, 255))
+</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>721</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 30);
+border: 2px solid rgba(255, 255, 255, 40);
+border-radius: 7px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>721</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Orpheus</family>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+border: none;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>Настройки</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>510</y>
+      <width>721</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Orpheus</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: black;
+background-color: rgba(255,255,255, 30);
+border: 2px solid rgba(255,255,255,40);
+border-radius: 7px;
+width:230px;
+height: 50px
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Выйти</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res-new-rc.qrc">
+      <normaloff>:/newPrefix/reply_FILL0_wght400_GRAD0_opsz48.svg</normaloff>:/newPrefix/reply_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Orpheus</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+border: none;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>Музыка</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Orpheus</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+border: none;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>Разрешение</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>170</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Orpheus</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius: 7px;
+width:230px;
+height: 50px;
+background-color: none;
+border: none;
+color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Вкл.</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res-sec-rc.qrc">
+      <normaloff>:/newPrefix/icons/check_circle_FILL0_wght400_GRAD0_opsz48.svg</normaloff>:/newPrefix/icons/check_circle_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>170</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Orpheus</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius: 7px;
+width:230px;
+height: 50px;
+background-color: none;
+border: none;
+color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Выкл.</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res-sec-rc.qrc">
+      <normaloff>:/newPrefix/icons/cancel_FILL0_wght400_GRAD0_opsz48.svg</normaloff>:/newPrefix/icons/cancel_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>230</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Orpheus</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>1920x1080</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1366x768</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1280x720</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>800x600</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res-new-rc.qrc"/>
+  <include location="res-sec-rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
